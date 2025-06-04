@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1600440291481-0be7cc278ca4') no-repeat center center/cover;
+}
+
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* overlay dark */
+}
+
+.pricing-card {
+  background-color: #222;
+  color: #fff;
+  padding: 25px;
+  width: 300px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.03);
+}
+
+.pricing-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.pricing-card h1 {
+  font-size: 36px;
+  color: #00ffff;
+  margin: 20px 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-card ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+  font-size: 14px;
+}
+
+.pricing-card button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pricing-card .highlight {
+  background-color: #00e6e6;
+  color: #000;
+}
+.pricing-card button:hover {
+  background-color: #00ffaa;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 255, 170, 0.6);
+  transition: all 0.3s ease;
+}

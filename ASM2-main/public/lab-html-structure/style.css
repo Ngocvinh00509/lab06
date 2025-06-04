@@ -1,0 +1,115 @@
+div.items a {
+    color: green;
+    font-weight: bold;
+}
+
+p + p {
+font-style: italic;
+font-weight: bold;
+}
+
+div > span {
+background: DodgerBlue;
+}
+span { background: #fff; }
+
+.apple {color: red}
+.orange {color: orange}
+.small {
+    font-size: 16px;
+}
+.apple.orange {
+    font-style: italic;
+}
+
+/* Multiple Selectors */
+h1, h2, p {
+    background: yellow;
+}
+/* combining multiple selectors */
+h1#header.intro {
+    text-decoration: underline;
+    color: #C00;
+    background: #fff
+}
+/* Attribute Selector */
+a[title="menu"] {
+    text-decoration: none;
+    color: #962103;
+    font-size: 22px;
+}
+
+/* hover */
+a {
+  text-decoration: none;
+  color: #000; /* màu mặc định */
+}
+
+a:hover {
+  color: #007bff; /* màu khi hover */
+  text-decoration: underline; /* gạch chân khi hover */
+}
+/* 
+new */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f0c5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff7d5;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #800000;
+}
+
+.posted {
+    font-size: 13px;
+    color: #333;
+}
+
+.author {
+    color: blue;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    text-align: justify;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    background-color: #604c2d;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+
+    .box1, .box2 {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      border: 2px solid black;
+    }
+
+    .box1 {
+      background-color: rgba(80, 70, 80, 0.9); /* dark gray with opacity */
+      left: 100px;
+      top: 100px;
+    }
+
+    .box2 {
+      background-color: rgba(225, 50, 100, 0.6); /* pinkish with opacity */
+      left: 150px;
+      top: 130px;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    //bt3
+    html { font-size: 25px }
+div { font-size: 2rem }
+.nested-div { font-size: 1.5rem }
+
+

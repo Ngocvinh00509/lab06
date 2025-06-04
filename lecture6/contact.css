@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f2f2;
+  padding: 50px;
+  margin: 0;
+}
+
+.contact-form {
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+.contact-form h2 {
+  margin-bottom: 5px;
+  color: #444;
+  font-size: 1.8em;
+}
+
+.contact-form p {
+  margin-bottom: 20px;
+  font-size: 0.95em;
+  color: #888;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 30%;
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px;
+  text-align: right;
+  margin-left: -90px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 70%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #999;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #e26c6c;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+.contact-form button:hover {
+  background-color: #c85454;
+}

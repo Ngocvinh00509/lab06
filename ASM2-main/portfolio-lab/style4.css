@@ -1,0 +1,14 @@
+    #outer-div {
+      width: 600px;
+      border: 3px dashed #00ccee;
+      padding: 20px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    #inner-div {
+      width: 50%; /* Tức là 50% của 600px => 300px */
+      border: 3px solid #1a1a8f;
+      margin: 0 auto;
+      padding: 10px;
+    }

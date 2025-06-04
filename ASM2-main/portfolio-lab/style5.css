@@ -1,0 +1,16 @@
+    #outer-div {
+      width: 200px;
+      border: 4px dashed #ccc;
+      padding: 10px;
+      margin: 30px auto;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    #inner-div {
+      width: calc(100% - 20px); /* 100% của outer-div trừ 20px */
+      border: 3px solid #66b3ff;
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
